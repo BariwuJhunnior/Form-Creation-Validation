@@ -1,10 +1,10 @@
 
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", function() {
 
   const form = document.getElementById("registrationForm");
   const feedbackDiv = document.getElementById("form-feedback");
 
-  form.addEventListener("submit", (event) => {
+  form.addEventListener("submit", function(event) {
     event.preventDefault();
 
     const username = document.getElementById("username").value.trim();
