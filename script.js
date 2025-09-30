@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let messages = [];
 
     //Username Validation
-    if(username.lenght < 3) {
+    if(username.length < 3) {
       isValid = false;
       messages.push("Username must be atleast 3 characters long.");
     }
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     //Password Validation
-    if(password.lenght < 8){
+    if(password.length < 8){
       isValid = false;
       messages.push("Password must be atleast 8 characters long.");
     }
